@@ -1,0 +1,38 @@
+.Options {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divider {
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
+
+.anchor {
+    display: grid;
+    height: 80px;
+    width: 250px;
+    background: linear-gradient(
+            #9365ff,
+            #6f3bff
+    );
+    position:absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    place-items: center;
+    font-family: "Poppins",sans-serif;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+
+}
