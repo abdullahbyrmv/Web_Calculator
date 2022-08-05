@@ -4,7 +4,6 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import static java.lang.Math.pow;
 
@@ -12,7 +11,6 @@ import static java.lang.Math.pow;
 public class BMIController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter output = response.getWriter();
         int weight = Integer.parseInt(request.getParameter("weight"));
         double height = Integer.parseInt(request.getParameter("height"));
         double meter = height/100;
