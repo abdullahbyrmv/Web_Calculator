@@ -11,7 +11,7 @@
         <input type="submit" value="BMI Calculator" name="BMI"/>
     </form>
     <div class="divider"></div>
-    <form action = "calorimeter.jsp">
+    <form action="calorimeter.jsp">
         <input type="submit" value="Calorimeter" name="calorimeter"/>
     </form>
 </div>

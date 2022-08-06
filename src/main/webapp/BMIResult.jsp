@@ -7,8 +7,15 @@
 <center>
     <h3>Your BMI score is <%=request.getAttribute("bmi")%>
     </h3>
-    <form action = "BMIController" method = "post">
-        <input type="submit" name = "return" value = "return to main page"/>
+    <center>
+        <h3><%=request.getAttribute("msg")%>
+        </h3>
+    </center>
+    <form action="BMIController" method="post">
+        <input type="submit" name="return" value="Return to main page"/>
+    </form>
+    <form action="AgainController" method="post">
+        <input type="submit" name="calculateAgain" value="Calculate BMI again"/>
     </form>
 </center>
 </body>
