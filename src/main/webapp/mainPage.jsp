@@ -7,9 +7,13 @@
 </head>
 <body>
 <div class="Options">
-    <a href="BMI.jsp">BMI Calculator</a>
+    <form action="BMI.jsp">
+        <input type="submit" value="BMI Calculator" name="BMI"/>
+    </form>
     <div class="divider"></div>
-    <a href="calorimeter.jsp">Calorimeter</a>
+    <form action = "calorimeter.jsp">
+        <input type="submit" value="Calorimeter" name="calorimeter"/>
+    </form>
 </div>
 </body>
 </html>
